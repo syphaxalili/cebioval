@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEBIOVAL</title>
+    <!-- GOOGLE FONTS 'Zilla Slab' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="container nav__container">
+        <a href="#" class="nav__logo">
+          <img src="./assets/imgs/CEBIOVAL LOGO HOR.svg" alt="CEBIOVAL" />
+        </a>
+        <ul class="nav__links">
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#produits">Produits</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__language-selector">
+          <img
+            class="current-language"
+            src="./assets/imgs/francais.png"
+            alt="langue francaise"
+          />
+        </div>
+        <input
+          type="checkbox"
+          role="button"
+          aria-label="Display the menu"
+          class="nav__menu-icon"
+        />
+        <ul class="nav__menu-links">
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#produits">Produits</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header>
+      <div class="container header__container">
+        <div class="header__content">
+          <h1 class="header__title">CEBIOVAL</h1>
+          <h2 class="header__subtitle">
+            Votre partenaire pour des produits agroalimentaires de qualité en
+            Algérie
+          </h2>
+          <div class="header__buttons">
+            <a class="header__contactez-nous" href="#contact">Contactez-nous</a>
+            <a class="header__en-savoir" href="#apropos">En savoir plus...</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- A PROPOS -->
+    <section id="apropos">
+      <div class="container about__container">
+        <div class="about__left-content">
+          <div class="section__title">
+            <h3>Qui sommes-nous?</h3>
+            <h2>CEBIOVAL</h2>
+          </div>
+          <div class="about__cebioval-logo">
+            <img
+              src="./assets/imgs/CEBIOVAL LOGO VER.svg"
+              alt="CEBIOVAL LOGO"
+            />
+          </div>
+          <p>
+            Cebioval est une société d'import-export basée en Algérie.<br /><br />Nous
+            somme actifs dans l'agroalimentaire, particulièrement dans les
+            boissons non alcoolisées (l'eau minirale, l'eau gazeuse...), l'huile
+            d'olive, les dates, les legumes, les fruits,...<br /><br />Nous
+            sommes en mesure de fournir de la datte d'excellente qualité, de
+            l'huile d'olive extra vierge (produits 2024) et d'autre fruits et
+            légumes frais.<br /><br />Nous sommes disposés également à fournir
+            tout produit disponible en algérie, selon les besoins de nos
+            éventuels partenaires.
+          </p>
+        </div>
+        <div class="about__cebioval-logo">
+          <img src="./assets/imgs/CEBIOVAL LOGO VER.svg" alt="CEBIOVAL LOGO" />
+        </div>
+      </div>
+    </section>
+    <!-- PRODUITS -->
+    <section id="produits">
+      <div class="container products__container">
+        <div class="section__title">
+          <h3>NOS PRODUITS</h3>
+          <h2>Une variété de produits</h2>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="products-card legumes swiper-slide">
+              <h4>Legumes</h4>
+              <div class="product-image">
+                <img src="./assets/imgs/legumes.png" alt="legumes" />
+              </div>
+            </div>
+            <div class="products-card viande swiper-slide">
+              <h4>Viandes</h4>
+              <div class="product-image">
+                <img src="./assets/imgs/viande.png" alt="legumes" />
+              </div>
+            </div>
+            <div class="products-card fruits swiper-slide">
+              <h4>Fruits</h4>
+              <div class="product-image">
+                <img src="./assets/imgs/fruits.png" alt="legumes" />
+              </div>
+            </div>
+            <div class="products-card laitiers swiper-slide">
+              <h4>Produits<br />Laitiers</h4>
+              <div class="product-image">
+                <img src="./assets/imgs/laitiers.png" alt="legumes" />
+              </div>
+            </div>
+            <div class="products-card boissons swiper-slide">
+              <h4>Boissons</h4>
+              <div class="product-image">
+                <img src="./assets/imgs/Boissons.svg" alt="legumes" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- POURQUOI NOUS CHOISIR? -->
+    <section id="engagement">
+      <div class="container engagement__container">
+        <div class="section__title">
+          <h2>Pourquoi nous choisir?</h2>
+        </div>
+        <div class="engagement-cards">
+          <div class="engagement-card">
+            <div class="card-head">
+              <p>01</p>
+              <img
+                src="./assets/imgs/Vegetables basket.svg"
+                alt="Vegetables basket"
+              />
+            </div>
+            <h3>Toujours frais</h3>
+            <p>
+              Grâce à des technologies biologiques innovantes, nos produits sont
+              toujours frais et ne nécessitent aucun traitement.
+            </p>
+          </div>
+          <div class="engagement-card">
+            <div class="card-head">
+              <p>02</p>
+              <img src="./assets/imgs/Leaf.svg" alt="leaf" />
+            </div>
+            <h3>100% BIO</h3>
+            <p>
+              Nous adhérons à notre philosophie biologique, qui implique
+              d'éviter les pesticides et les engrais non organiques.
+            </p>
+          </div>
+          <div class="engagement-card">
+            <div class="card-head">
+              <p>03</p>
+              <img src="./assets/imgs/Farm.svg" alt="farm" />
+            </div>
+            <h3>AUCUN ADDITIF</h3>
+            <p>
+              Nous évitons les additifs artificiels après la récolte des
+              cultures pour vous offrir les meilleurs produits biologiques.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="container services__container">
+        <div class="section__title">
+          <h3>NOS SERVICES</h3>
+          <h2>Que faisons-nous?</h2>
+        </div>
+        <div class="services-cards">
+          <div class="services-card">
+            <div class="service-img">
+              <img src="./assets/imgs/bio.jpg" alt="bio" />
+            </div>
+            <div class="service-info">
+              <div class="service-title">
+                <div class="icon">
+                  <img src="./assets/imgs/service-leaf.svg" alt="leaf" />
+                </div>
+                <h3>Que du Bio!</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Egest eget vulputate sit
+                nunc. Quisque ultricies pulvinar nibh eros.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="service-img">
+              <img
+                src="./assets/imgs/livraison-ferme-table.jpg"
+                alt="livraison"
+              />
+            </div>
+            <div class="service-info">
+              <div class="service-title">
+                <div class="icon">
+                  <img
+                    src="./assets/imgs/service-delivery.svg"
+                    alt="livraison"
+                  />
+                </div>
+                <h3>De la ferme à la table</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Egest eget vulputate sit
+                nunc. Quisque ultricies pulvinar nibh eros.
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="service-img">
+              <img src="./assets/imgs/import-export.jpeg" alt="import export" />
+            </div>
+            <div class="service-info">
+              <div class="service-title">
+                <div class="icon">
+                  <img
+                    src="./assets/imgs/service-shipping.svg"
+                    alt="import export"
+                  />
+                </div>
+                <h3>Import/Export</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Egest eget vulputate sit
+                nunc. Quisque ultricies pulvinar nibh eros.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TEMOIGNAGES -->
+    <section id="temoignages">
+      <div class="container temoignages__container">
+        <div class="section__title">
+          <h3>TEMOIGNAGES</h3>
+          <h2>Nos Clients</h2>
+        </div>
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="temoignages-slide swiper-slide">
+              <div class="quote-icon">
+                <img src="./assets/imgs/quote.svg" alt="quote" />
+              </div>
+              <p class="quote-text">
+                Je voulais vous dire à quel point c'était génial de voir la
+                ferme et combien nous aimons la nourriture. Vos pommes et
+                carottes sont tout simplement merveilleuses et leur goût est
+                spectaculaire.
+              </p>
+              <div class="quote-profile">
+                <div class="profile-image">
+                  <img src="./assets/imgs/profile.jpg" alt="profile" />
+                </div>
+                <div class="profile-text">
+                  <h4>BILL MCMILLAN</h4>
+                  <h5>Client</h5>
+                </div>
+              </div>
+            </div>
+            <div class="temoignages-slide swiper-slide">
+              <div class="quote-icon">
+                <img src="./assets/imgs/quote.svg" alt="quote" />
+              </div>
+              <p class="quote-text">
+                Je voulais vous dire à quel point c'était génial de voir la
+                ferme et combien nous aimons la nourriture. Vos pommes et
+                carottes sont tout simplement merveilleuses et leur goût est
+                spectaculaire.
+              </p>
+              <div class="quote-profile">
+                <div class="profile-image">
+                  <img src="./assets/imgs/profile.jpg" alt="profile" />
+                </div>
+                <div class="profile-text">
+                  <h4>BILL MCMILLAN</h4>
+                  <h5>Client</h5>
+                </div>
+              </div>
+            </div>
+            <div class="temoignages-slide swiper-slide">
+              <div class="quote-icon">
+                <img src="./assets/imgs/quote.svg" alt="quote" />
+              </div>
+              <p class="quote-text">
+                Je voulais vous dire à quel point c'était génial de voir la
+                ferme et combien nous aimons la nourriture. Vos pommes et
+                carottes sont tout simplement merveilleuses et leur goût est
+                spectaculaire.
+              </p>
+              <div class="quote-profile">
+                <div class="profile-image">
+                  <img src="./assets/imgs/profile.jpg" alt="profile" />
+                </div>
+                <div class="profile-text">
+                  <h4>BILL MCMILLAN</h4>
+                  <h5>Client</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination2"></div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT US -->
+    <section id="contact">
+      <div class="container contact__container">
+        <div class="section__title">
+          <h3>CONTACT</h3>
+          <h2>Nous sommes là pour vous!</h2>
+        </div>
+        <div class="contact__content">
+          <div class="left__content">
+            <h4>Veuillez prendre le temps de décrire votre besoin.</h4>
+            <form action="">
+              <input type="text" name="nom" id="nom" placeholder="Votre nom" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Votre email"
+              />
+              <input
+                type="text"
+                name="entreprise"
+                id="entreprise"
+                placeholder="Votre entreprise"
+              />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Votre message"
+              ></textarea>
+              <input type="submit" value="ENVOYER" />
+            </form>
+          </div>
+          <div class="right__content">
+            <div class="contact-infos">
+              <div class="contactez-nous">
+                <h4>Contactez-nous</h4>
+                <div class="phone">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <a href="tel:+1234567890" target="_blank">+1 234 567 890</a>
+                </div>
+                <div class="email">
+                  <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <a href="mailto:contact@cebioval.com" target="_blank"
+                    >contact@cebioval.com</a
+                  >
+                </div>
+              </div>
+              <div class="nous-visiter">
+                <h4>Nous visiter</h4>
+                <div class="adress-1">
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <a
+                    href="https://maps.app.goo.gl/7RWFxM6vvgVCpp5S9"
+                    target="_blank"
+                    >Rue si zoubire, Ex Route de la gare, Bouira 10000,
+                    Algeria</a
+                  >
+                </div>
+                <div class="adress-2">
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <p>631 Elgin ST. Celina, State</p>
+                </div>
+              </div>
+              <div class="nos-horraires">
+                <h4>Nos horraires</h4>
+                <div class="jours">
+                  <div class="icon">
+                    <i class="fa-regular fa-calendar-days"></i>
+                  </div>
+                  <p>Dimanche - Jeudi</p>
+                </div>
+                <div class="heures">
+                  <div class="icon">
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+                  <p>08:00 - 17:00</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-maps">
+              <a
+                href="https://maps.app.goo.gl/7RWFxM6vvgVCpp5S9"
+                target="_blank"
+              >
+                <img src="./assets/imgs/maps.png" alt="maps" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PARTENAIRES -->
+    <section id="partenaires">
+      <div class="section__title">
+        <h3>PARTENAIRES</h3>
+        <h2>Alliés du bio</h2>
+      </div>
+      <div class="partenaires-slider">
+        <div class="partenaires-logos">
+          <img
+            src="./assets/imgs/brand-slide-1.png"
+            loading="eager"
+            alt="brand-slide-1"
+          />
+
+          <img
+            src="./assets/imgs/brand-slide-2.png"
+            loading="eager"
+            alt="brand-slide-2"
+          />
+
+          <img
+            src="./assets/imgs/brand-slide-3.png"
+            loading="eager"
+            alt="brand-slide-3"
+          />
+
+          <img
+            src="./assets/imgs/brand-slide-4.png"
+            loading="eager"
+            alt="brand-slide-4"
+          />
+
+          <img
+            src="./assets/imgs/brand-slide-5.png"
+            loading="eager"
+            alt="brand-slide-5"
+          />
+
+          <img
+            src="./assets/imgs/brand-slide-6.png"
+            loading="eager"
+            alt="brand-slide-6"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__section">
+          <div class="cebioval-logo">
+            <img src="./assets/imgs/CEBIOVAL LOGO HOR.svg" alt="CEBIOVAL" />
+          </div>
+          <div class="jours">
+            <p>Jours:</p>
+            <p>Dimanche - Jeudi</p>
+          </div>
+          <div class="heures">
+            <p>Heures:</p>
+            <p>08:00 - 17:00</p>
+          </div>
+          <hr />
+          <small>© 2024 CEBIOVAL. Tous droits réservés. </small>
+        </div>
+        <div class="footer__section">
+          <h3>Liens</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-angle-right"></i>
+              <a href="#apropos">À propos</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-angle-right"></i>
+              <a href="#produits">Produits</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-angle-right"></i>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-angle-right"></i>
+              <a href="#contact">Contactez-nous</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h3>Contacts</h3>
+          <ul>
+            <li>
+              <div class="phone">
+                <a href="tel:+1234567890" target="_blank">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <p>+1 234 567 890</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="email">
+                <a href="mailto:contact@cebioval.com" target="_blank">
+                  <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <p>contact@cebioval.com</p>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="adress">
+                <a
+                  href="https://maps.app.goo.gl/7RWFxM6vvgVCpp5S9"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <p>
+                    Rue si zoubire, Ex Route de la gare, Bouira 10000, Algeria
+                  </p>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <small>© 2024 CEBIOVAL. Tous droits réservés. </small>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+    <!-- TESTOMINALS SWIPPER JS SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      // PRODUITS SWIPER
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+          delay: 3000, // 3000ms = 3s
+          disableOnInteraction: false, // Allow autoplay to continue after user interaction
+        },
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+          769: {
+            slidesPerView: 3,
+          },
+          992: {
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      // TEMOIGNAGES SWIPER
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        autoplay: {
+          delay: 5000, // 1000ms = 1s
+          disableOnInteraction: false, // Allow autoplay to continue after user interaction
+        },
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination2",
+          dynamicBullets: true,
+        },
+        breakpoints: {
+          600: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
